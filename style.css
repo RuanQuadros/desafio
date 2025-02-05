@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+
+}
+
+header {
+    background-color: black;
+    height: 250px;
+}
+
+header h1 {
+    font-size: 80px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+header p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section.normal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-indent: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+section.img{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-indent: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(./imgs/pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.branco{
+    margin: 20px 5px 5px 35px;
+    padding-top: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);
+    width: 50%;
+
+}
+
+.s3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-indent: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.img2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-indent: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(./imgs/pacote-d012/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fim{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-indent: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    transition: .5s;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+}
